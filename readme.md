@@ -9,7 +9,8 @@
 #####   NPM 8.19
 #####   Tailwind CSS 3.3.0
 #####   Swiper.js 9.1.1
-#
+# 
+
 
 ### Hardware:🛠️
 #####   Android-Studio 
