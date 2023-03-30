@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!--        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover" />
+        <meta name="color-scheme" content="light dark" />
+        <link rel="stylesheet" href="css/index.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- swiperjs -->
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <link rel="stylesheet" href="path/to/swiper.css" />
+        <script src="path/to/swiper.js"></script>
+
+        <title>Santorini</title>
+       
+    </head>
+
+    <body>
+        <!-- navbar -->
+        <div class="fixed z-10 bg-transparent shadow-lg backdrop-filter backdrop-blur-lg backdrop-saturate-150 right-0 left-0">
+            <div class="max-w-7xl mx-auto py-0 px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between h-16">
+                    <div class="flex-shrink-0 flex items-center">
+                        <a href="#" class="text-blue-700 font-bold text-xl">Santorini</a>
+                    </div>
+                    <div class="hidden sm:block sm:ml-6">
+                        <div class="flex space-x-4">
+                            <a href="#" class="px-3 py-2 text-gray-500 hover:text-gray-900 font-medium">Discover Santorini</a>
+                            <a href="#" class="px-3 py-2 text-gray-500 hover:text-gray-900 font-medium">Explore Santorini</a>
+                            <a href="#" class="px-3 py-2 text-gray-500 hover:text-gray-900 font-medium">What to see</a>
+                            <a href="#" class="px-3 py-2 text-gray-500 hover:text-gray-900 font-medium">Where to stay</a>
+                            <a href="#" class="px-3 py-2 text-gray-500 hover:text-gray-900 font-medium">Travel to Santorini<</a>
+                            <a href="#" class="px-3 py-2 text-gray-500 hover:text-gray-900 font-medium">Contact us</a>
+
+                        </div>
+                    </div>
+                    <div class="flex items-center sm:hidden">
+                        <button
+                            type="button"
+                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                            aria-controls="mobile-menu"
+                            aria-expanded="false"
+                            id="mobile-menu-button"
+                        >
+                            <span class="sr-only">Open main menu</span>
+                            <!-- Heroicon name: menu -->
+                            <svg
+                                class="block h-6 w-6"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16"
+                                />
+                            </svg>
+                            <!-- Heroicon name: x -->
+                            <svg
+                                class="hidden h-6 w-6"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12"
+                                />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- for mobile -->
+            <div class="sm:hidden" id="mobile-menu">
+                <ul class="px-2 pt-2 pb-3 space-y-1">
+                    <li>
+                        <a href="#" class="block px-4 py-2 text-gray-100 font-medium">Discover Santorini</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block px-4 py-2 text-gray-100 font-medium">Explore Santorini</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block px-4 py-2 text-gray-100 font-medium">What to see</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block px-4 py-2 text-gray-100 font-medium">Where to stay</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block px-4 py-2 text-gray-100 font-medium">Travel to Santorini</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block px-4 py-2 text-gray-100 font-medium">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <script>
+                // clsoe the navbar menu
+                    const mobileMenuButton = document.getElementById('mobile-menu-button');
+                    const mobileMenu = document.getElementById('mobile-menu');
+
+                    mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    });
+            </script>
+        </div>
+
+        <!-- main -->
+        <div class=''>
+            <!-- here the slider -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/www/img/1.jpg" alt="bg" class="bordered-xl md:max-w-none md:h-auto md:w-full">
+
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="/www/img/san.jpg" alt="bg" class="bordered-xl md:max-w-none md:h-auto md:w-full">
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/www/img/2.jpg" alt="bg" class="bordered-xl md:max-w-none md:h-auto md:w-full">
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/www/img/3.jpg" alt="bg" class="bordered-xl md:max-w-none md:h-auto md:w-full">
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/www/img/4.jpg" alt="bg" class="bordered-xl md:max-w-none md:h-auto md:w-full">
+
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/www/img/5.jpg" alt="bg" class="bordered-xl md:max-w-none md:h-auto md:w-full">
+                    </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            <!-- Swiper js -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+             <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                    },
+
+                    });
+                </script>
+              
+            <!-- the info section -->
+            <section class="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-12 py-8">
+                <div class="p-8 font-semibold text-lg normal-case">
+                    <div class="">
+                        <h2></h2>
+                        Santorini, known since ancient times as Thira, is one of the most famous islands in the world. The fact that you can sit in front of the caldera, enjoy local dishes, a drink or a coffee while gazing at the remarkable beauty of an active volcano is priceless!<br>
+                    <br>
+                    The island is actually a group of islands consisting of Thira, Thirassia, Aspronissi, Palea and Nea Kameni in the southernmost part of the Cyclades. <br>
+                    <br>
+                    Santorini’s volcano is one of the few active volcanoes on Greek and European land The islands that form Santorini came into existence as a result of intensive volcanic activity; twelve huge eruptions occurred, one every 20,000 years approximately, and each violent eruption caused the collapse of the volcano’s central part creating a large crater (caldera). The volcano, however, managed to recreate itself over and over again.
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <!-- <img src="/www/img/san.jpg" alt="bg" class="bordered-xl md:max-w-none md:h-auto md:w-full"> -->
+                    <img src="/www/img/san.jpg" alt="bg" class="bordered-xl md:max-w-none md:h-auto md:w-full rounded-full border-8 border-gradient">
+
+                </div>
+            </section>
+
+            <!-- unique expeiences -->
+            <section class="py-12 bg-gray-100">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+                  <h2 class="text-3xl font-bold mb-8 text-center normal-case">Unique Experiences</h2>
+                  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 cursour-pointer">
+                    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                      <img src="/www/img/6.jpg" alt="Beach" class="w-full h-64 object-cover">
+                      <div class="p-6">
+                        <h3 class="text-lg font-bold mb-2 normal-case">Relax on Santorini's beaches</h3>
+                        <p class="text-gray-600 normal-case">Santorini has some of the most unique and picturesque beaches in the world. Spend a day or two soaking up the sun on the black, red, or white sands of Perissa, Kamari, and Red Beach.</p>
+                      </div>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                      <img src="img/7.jpg" alt="Food" class="w-full h-64 object-cover">
+                      <div class="p-6">
+                        <h3 class="text-lg font-bold mb-2 normal-case">Savor Santorini's local cuisine</h3>
+                        <p class="text-gray-600 normal-case">Indulge in the unique flavors of Santorini's local cuisine, from fresh seafood and Greek salads to fava and tomatokeftedes. Make sure to pair your meal with a glass of local wine, made from the island's volcanic soil.</p>
+                      </div>
+                    </div>
+                    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                      <img src="img/8.jpg" alt="Sunset" class="w-full h-64 object-cover">
+                      <div class="p-6">
+                        <h3 class="text-lg font-bold mb-2 normal-case">Watch the sunset over the caldera</h3>
+                        <p class="text-gray-600 normal-case">One of the most iconic experiences in Santorini is watching the sunset over the caldera. Head to the town of Oia for the best views and make sure to arrive early to secure a good spot.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+            <!-- more destinations -->
+            <div class="container mx-auto px-4 py-6">
+                <h2 class="text-3xl font-bold mb-4 normal-case">Other Destinations</h2>
+                <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <li class="rounded-lg shadow-lg overflow-hidden">
+                        <img src="img/nargos.webp" alt="Destination 2" class="w-full h-64 object-cover">
+                        <div class="p-4">
+                          <h3 class="text-xl font-bold mb-2">Paros</h3>
+                          <p class="text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <a href="#" class="block text-blue-600 font-medium mt-4">Learn More</a>
+                        </div>
+                      </li>
+                  <li class="rounded-lg shadow-lg overflow-hidden">
+                    <img src="img/armos.webp" alt="Destination 1" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                      <h3 class="text-xl font-bold mb-2">Naxos</h3>
+                      <p class="text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a href="#" class="block text-blue-600 font-medium mt-4">Learn More</a>
+                    </div>
+                  </li>
+                  
+                  <li class="rounded-lg shadow-lg overflow-hidden">
+                    <img src="/www/img/paros.webp" alt="Destination 3" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                      <h3 class="text-xl font-bold mb-2">Amorgos</h3>
+                      <p class="text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a href="#" class="block text-blue-600 font-medium mt-4">Learn More</a>
+                    </div>
+                  </li>
+                 
+            </ul>
+        </div>
+              
+        </main>
+        <!------------this is end of body------>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
+
+
+
+
