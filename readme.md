@@ -12,7 +12,7 @@
 
 
 ### Hardware:🛠️
-      Os, Ubuntu 22 
+      Os: Ubuntu 22 
 
 ## **추가 설명**
 
