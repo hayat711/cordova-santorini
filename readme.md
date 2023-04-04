@@ -8,10 +8,7 @@
 <h6>   Cordova </h6>
 <h6>   Tailwindcss</h6>
 <h6>   Swiper.js </h6>
-####  Cordova
-####  Android-Studio
-####  Tailwindcss
-####  Swiper.js
+
 
 ***
 
