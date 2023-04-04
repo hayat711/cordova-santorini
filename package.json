@@ -15,6 +15,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "cordova-android": "^10.1.2",
+    "cordova-plugin-googlemaps": "^2.7.1",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
@@ -25,9 +26,13 @@
   "cordova": {
     "platforms": [
       "android"
-    ]
+    ],
+    "plugins": {
+      "cordova-plugin-googlemaps": {}
+    }
   },
   "dependencies": {
+    "ol": "^7.3.0",
     "swiper": "^9.1.1"
   }
 }
