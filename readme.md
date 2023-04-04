@@ -19,8 +19,10 @@
 
 ### **추가 설명**
 
-### 앱의 특징: main page
-### 1.Navbar  #### mobie responsive
+## 앱의 특징: 
+### 1.main page
+### 
+### 2.Navbar; mobie responsive
 ### Menu를 클릭 하면 navbar열리고 다시 닫을 기능이 있습니다.
 ### Navbar를 열리면 Discover Santorini, Explore Santorini, What To see, Where to stay , Other Destination option들이 있습니다.
 
