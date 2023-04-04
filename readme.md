@@ -4,15 +4,15 @@
 ####    cordova로 만든 santorini를 소개하는 앱입니다.
 
 ### Software: 👨‍💻
-  ##### >>   Android-Studio 
-  #####   Cordova 
-  #####   Node v18.0.0
-  #####   Tailwind CSS 3.3.0
-  #####   Swiper.js 9.1.1 
+  >>   Android-Studio 
+  >>   Cordova 
+  >>   Node v18.0.0
+  >>   Tailwind CSS 3.3.0
+  >>   Swiper.js 9.1.1 
 
 
 ### Hardware:🛠️
-#####   Os, Ubuntu 22 
+ >>  **Os, Ubuntu 22**
 
 
 ### **추가 설명**
