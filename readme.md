@@ -20,6 +20,10 @@
 ### **추가 설명**
 
 ## 앱의 특징: 
+## 1.main page:
+### Swiper.js library를 사용해서 main page에 몇개 santorini 사진을 불 수 있게 하고 오론족이나 외족에 있는 아이큰을 
+###     클릭하면 사진을 바꿀 수 있는 기능이다 또한 mobile에서 drag and drop하면 slide를 바꿀 수 있습니다.
+### slide 밑에 santorini에 대한 정부를 불 수 있고 거기에서 관객들이 어떤 것을 할 수 있는지를 3 가찌 Unique Experiences 불 수 있습닏.
 ### 1.main page
 ### 
 ### 2.Navbar; mobie responsive
