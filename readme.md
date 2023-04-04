@@ -4,7 +4,7 @@
 ####    cordova로 만든 santorini를 소개하는 앱입니다.
 
 ### Software: 👨‍💻
-  >>   Android-Studio 
+  -Android-Studio 
   >>   Cordova 
   >>   Node v18.0.0
   >>   Tailwind CSS 3.3.0
