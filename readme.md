@@ -14,8 +14,7 @@
 
 
 ### Hardware:🛠️
-
-<pre /> <h2>  Os, Ubuntu 22 </h2>
+>><h4>  Os, Ubuntu 22 </h4>
 
 
 ### **추가 설명**
