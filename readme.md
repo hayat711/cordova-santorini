@@ -1,7 +1,7 @@
 # Cordova santorini  소개
 
 ## Description
-####    cordova로 만든 santorini를 소개하는 앱입니다.
+####    cordova로 만든 santorini 소개 앱을 발표하려고 합니다..
 
 ### Software: 👨‍💻
       ✅ Android-Studio 
