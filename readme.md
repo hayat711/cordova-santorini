@@ -4,15 +4,15 @@
 ####    cordova로 만든 santorini를 소개하는 앱입니다.
 
 ## Software: 👨‍💻
-       Android-Studio 
-       Cordova 
-       Tailwindcss
-       Swiper.js 
+-Android-Studio 
+-Cordova 
+-Tailwindcss
+-Swiper.js 
 
 
 
 ### Hardware:🛠️
-      Os: Ubuntu 22 
+-Os: Ubuntu 22 
       
   ![Screenshot from 2023-03-31 02-27-35](https://user-images.githubusercontent.com/71981169/230405396-934151e6-066b-4297-9209-b7a34e443d09.png)
 
@@ -32,7 +32,7 @@
 
 
 
-## 2.Navbar; mobie responsive
+## 2.Navbar
 #####    Menu를 클릭 하면 navbar열리고 다시 닫을 기능이 있습니다.
 #####    Navbar를 열리면 Discover Santorini, Explore Santorini, What To see, Where to stay , Other Destination option들이 있습니다.
 
@@ -58,6 +58,8 @@
 
 ![details](https://user-images.githubusercontent.com/71981169/229839902-44c961ba-5f5e-44c6-9b0b-699ed855bcc9.gif)
 
+### Note: 
+- Ubuntu를 사용하니까 gradle version가 cordova앱과 잘 안 맞아서 android emulator를 실행할때 걔속 오료가 발생했습니다, 그래서 browser에서 모바일 device를 실행했습니다.
 
 ### Browser platform
 
