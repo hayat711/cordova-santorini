@@ -3,16 +3,16 @@
 ## Description
 ####    cordova로 만든 santorini를 소개하는 앱입니다.
 
-## Software: 👨‍💻
--Android-Studio 
--Cordova 
--Tailwindcss
--Swiper.js 
+### Software: 👨‍💻
+      ✅ Android-Studio 
+      ✅ Cordova 
+      ✅ Tailwindcss
+      ✅ Swiper.js 
 
 
 
 ### Hardware:🛠️
--Os: Ubuntu 22 
+      ✅ Os: Ubuntu 22 
       
   ![Screenshot from 2023-03-31 02-27-35](https://user-images.githubusercontent.com/71981169/230405396-934151e6-066b-4297-9209-b7a34e443d09.png)
 
