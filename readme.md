@@ -8,7 +8,7 @@
       ✅ Cordova 
       ✅ Tailwindcss
       ✅ Swiper.js 
-
+###### 이 앱은 Cordova 프레임워크를 사용해서 개발되었습니다. 그리고 개발을 위해 Android Studio를 사용했습니다. 또한, Tailwindcss와 Swiper.js 라이브러리를 이용하여 개발을 하였습니다. 
 
 
 ### Hardware:🛠️
@@ -23,8 +23,10 @@
 
 ## 앱의 특징: 
 ##     1.main page:
-#####       Swiper.js library를 사용해서 main page에 몇개 santorini 사진을 불 수 있게 하고 오론족이나 외족에 있는 아이큰을 
-#####         클릭하면 사진을 바꿀 수 있는 기능이다 또한 mobile에서 drag and drop하면 slide를 바꿀 수 있습니다.
+#####       메인 페이지에서는 Swiper.js library를 사용해서 몇 개의 Santorini 아름다운 사진을 
+#####       슬라이드 형태로 보여줍니다. 이 사진들을 클릭하면 다른 사진으로 변경할 수 있습니다. 또한, 모바일에서는 drag and drop 기능을 통해 슬라이드를 바꿀 수 있습니다.
+#####       몇개 santorini 사진을 불 수 있게 하고 오론족이나 외족에 있는 아이큰을 
+#####       클릭하면 사진을 바꿀 수 있는 기능이다 또한 mobile에서 drag and drop하면 slide를 바꿀 수 있습니다.
 
 ![slides](https://user-images.githubusercontent.com/71981169/229835800-edfc3346-07fa-4368-a127-fedd6751cc52.gif)
 
@@ -47,7 +49,7 @@
 
 ## 3.Other Destination page
 ##### Navbar option 중에 other destinations를 클릭하면 새로운 page 열리입니다.
-#####  이 page에서 santorin와 비슷한 명소를 3개 불 수 있습니다. 
+#####  또한, 앱에는 Santorini와 비슷한 다른 여행지를 소개하는 페이지가 있습니다. 이 페이지에서는 다른 여행지를 클릭하면 해당 여행지에 대한 자세한 정보를 볼 수 있습니다. 
 
 ![otherDest](https://user-images.githubusercontent.com/71981169/229838886-61700681-37a2-4d2f-952e-33070db99273.gif)
 
