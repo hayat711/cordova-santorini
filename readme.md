@@ -74,10 +74,10 @@
 
 
 ## Android Emulitar
-![photo_2023-04-08_17-15-39](https://user-images.githubusercontent.com/71981169/230711287-feaa9cca-f905-4280-aaad-f32fcbada17d.jpg)
-![photo_2023-04-08_17-15-35](https://user-images.githubusercontent.com/71981169/230711312-f407d8af-35fb-4d84-9a98-84bf1bf3c524.jpg)
-![photo_2023-04-08_17-15-29](https://user-images.githubusercontent.com/71981169/230711328-14840238-5efa-4b28-b9da-e479039bbed7.jpg)
-![photo_2023-04-08_17-15-10](https://user-images.githubusercontent.com/71981169/230711350-1421c2ed-54c7-4b0d-97b7-69065752be6b.jpg)
+
+
+
+![Screenshot from 2023-04-08 18-13-43](https://user-images.githubusercontent.com/71981169/230713741-210655ef-e889-4645-ba8e-5168ed7f6be7.png)
 
 
 
