@@ -73,6 +73,13 @@
 ![ezgif com-optimize](https://user-images.githubusercontent.com/71981169/229842889-6cc822f1-10f9-4f8a-b2a3-ddb10200cfe9.gif)
 
 
+## Android Emulitar
+![photo_2023-04-08_17-15-39](https://user-images.githubusercontent.com/71981169/230711287-feaa9cca-f905-4280-aaad-f32fcbada17d.jpg)
+![photo_2023-04-08_17-15-35](https://user-images.githubusercontent.com/71981169/230711312-f407d8af-35fb-4d84-9a98-84bf1bf3c524.jpg)
+![photo_2023-04-08_17-15-29](https://user-images.githubusercontent.com/71981169/230711328-14840238-5efa-4b28-b9da-e479039bbed7.jpg)
+![photo_2023-04-08_17-15-10](https://user-images.githubusercontent.com/71981169/230711350-1421c2ed-54c7-4b0d-97b7-69065752be6b.jpg)
+
+
 
 #####   이 프로젝트는 cordova를 이용하여 만들어진 프로젝트입니다.
 #####   cordova를 이용하여 만들어진 프로젝트는 cordova를 이용하여  빌드하여 apk파일을 만들어야 합니다.
